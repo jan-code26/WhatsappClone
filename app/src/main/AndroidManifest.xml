@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogInSignUp.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogInSignUp.PhnoLogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogInSignUp.LogInActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
