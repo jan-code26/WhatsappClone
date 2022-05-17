@@ -25,6 +25,8 @@ public class LogInActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
         Intialize();
@@ -34,11 +36,23 @@ public class LogInActivity extends AppCompatActivity {
                 Sendusertoregactivity();
             }
         });
+        phonenumberlogIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Sendusertophoneactivity();
+            }
+        });
     }
 
     private void Sendusertoregactivity() {
         Intent intent = new Intent(LogInActivity.this, RegisterActivity.class);
         startActivity(intent);
+    }
+    private void Sendusertophoneactivity() {
+
+        Intent intent =new Intent(LogInActivity.this, PhnoLogInActivity.class);
+        startActivity(intent);
+
     }
 
     private void Intialize() {

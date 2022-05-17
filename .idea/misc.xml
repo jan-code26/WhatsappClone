@@ -14,6 +14,7 @@
         <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_request.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_status.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/options_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
