@@ -25,8 +25,6 @@ public class LogInActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
         Intialize();
@@ -54,7 +52,6 @@ public class LogInActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
-
     private void Intialize() {
         needanewAccount=findViewById(R.id.needanewAccount);
         phonenumberlogIn=findViewById(R.id.phone_number_login);
